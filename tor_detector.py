@@ -53,7 +53,6 @@ with open(logfile, 'a') as f:
             except KeyboardInterrupt:#exit
                 print ('\nScan exited by user input.\n\nOnions Checked: ' + str(onion_count) + '\nOnions Found: ' + str(onions_found))
                 print('\n\nCheck ' + logfile + ' for detected onions.\n')
-                #print('\nQuestions and comments welcome at: https://github.com/milosilo/onion_detector\n\n')
                 print("You were so preocupied with whether or not you could,\nyou didn't stop to think if you should.")
                 print('\n                                  -Vishwa(DrPinnacle)\n\n ')
                 sys.exit()
